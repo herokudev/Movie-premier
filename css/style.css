@@ -1,0 +1,279 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  body {
+    background-image: url("/images/site-bg.png");
+    background-size: cover;
+    background-repeat:repeat-y;
+    background-color: aqua;
+  }
+
+  .mobile-icons {
+    width: 600px;
+  }
+
+  .nav-item1 {
+    position: relative;
+    top: 25px;
+    left: 25px;    
+  }
+
+.nav-item2 {
+    position: relative;
+    top: 25px;
+    left: 600px;
+  }
+
+  .mobile-intro {
+    position: relative;
+    width: 550px;
+    top: 110px;    
+    left: 35PX;
+  }
+
+  .center-text {
+      text-align: center;
+  }
+
+  .title1 {
+    font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ec5242;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 15px;
+  }
+
+  .title2 {
+    font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 64px;
+    color: #ec5242;
+    margin: 25px 0 0 0;
+    padding: 0 0 0 15px;    
+  }
+
+  .bg-color-white {
+      background-color: white;
+  }
+
+  .content1 {
+    border: 3px solid #fff;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #272a31;
+    position: relative;
+    width: 500px;
+    padding: 15px;
+    top: 170px;    
+    left: 35PX;
+  }
+  
+  .content2 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 32px;
+    color: #272a31;
+    position: relative;
+    width: 500px;
+    padding: 10px 0 5px 15px;
+    top: 180px;    
+    left: 35PX;
+  }
+
+  .content3 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #272a31;
+    position: relative;
+    width: 500px;
+    padding: 5px 0 5px 15px;
+    top: 185px;    
+    left: 35PX;
+  }
+
+  .main-container1 {
+    width: 500px;
+    position: relative;
+    background-color: black;
+    top: 200px;
+    left: 35px;
+    height: 585px;    
+  }
+
+  .title3 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 32px;
+    color: #fff;
+    position: relative;
+    top: 30px;
+    left: 195px;
+  }
+
+  .image-list-events {
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    top: 65px;
+    left: 110px;
+  }
+
+  .event-title {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    color: #ec5242;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;    
+    position: relative;
+    top: -55px;
+    left: 85px;
+  }
+
+  .main-container2 {
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 35px;
+    height: 585px;         
+  }
+
+  .title4 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 32px;
+    color: black;
+    position: relative;
+    top: 55px;
+    left: 120px;
+  }
+
+  .actors-list {
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: 35px;      
+  }
+
+  .actor-name {
+    position: relative;
+    top: -125px;
+    left: 155px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+  }
+
+  .actor-character {
+    position: relative;
+    top: -125px;
+    left: 155px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ec5242;
+  }
+
+  .content4 {
+    background-color: white;
+    position: relative;
+    width: 500px;
+    padding: 25px 0 5px 15px;
+    top: 185px;    
+    left: 35PX;      
+  }
+
+  .title5 {
+    padding: 15px 45px 15px 45px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #272a31;
+  }
+
+  .content5 {
+    background-color: white;
+    position: relative;
+    width: 500px;
+    padding: 0 0 0 15px;
+    top: 185px;    
+    left: 35PX;      
+  }
+
+  .title6 {
+    padding: 0 45px 15px 45px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #272a31;      
+  }
+
+.content5-img {
+    position: relative;
+    width: 450px;
+    left: 15px;
+}
+
+.separator {
+    position: relative;
+    width: 500px;
+    top: 187px;
+    left: 25px;
+    padding: 35px;
+}
+
+.characters-list > ul {
+    position: relative;
+    top: 187px;
+    left: 100px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.parters-list > ul {
+    background-color: black;
+    position: relative;
+    top: 187px;
+    left: 55px;
+    width: 525px;
+    padding: 65px 35px 35px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title7 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 32px;
+    color: #fff;
+    position: relative;
+    top: 235px;
+    left: 225px;
+    z-index: 1;
+}
