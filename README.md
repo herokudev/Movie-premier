@@ -1,5 +1,9 @@
 # Capstone Project - Microverse Module 1
 
+> My project name is "Movie-premier"
+
+![screenshot](./app_screenshot.png)
+
 This project is to apply the tools/concepts we have learned in module (HTML/CSS/JavaScript). 
 
 [Portolio Live Demo](https://herokudev.github.io/Movie-premier/)
