@@ -9,10 +9,46 @@
     <title> World Premiere Fan Event</title>
 </head>
 <body>
-    <nav class="mobile-icons">
-        <img class="nav-item1" src="images/menu-4-24.png" alt="menu icon">
-        <img class="nav-item2" src="images/close-window-24.png" alt="close button">
+    <div class="menu-container mobile">   
+        <nav class="mobile-icons">
+            <img id="menuIcon" class="nav-item1" src="images/menu-4-24.png" alt="menu icon">
+            <img id="closeIcon" class="nav-item2" src="images/close-window-24.png" alt="close button">
+            <ul class="nav-list">
+                <li class="nav-item">                        
+                    <a id="menu-item1" href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">                        
+                    <a id="menu-item2" href="#mobileMain" class="nav-link">Main Program</a>
+                </li>
+                <li class="nav-item">                        
+                    <a id="menu-item3" href="#mobileActors" class="nav-link">Featured Actors</a>
+                </li>                                        
+            </ul>
+        </nav>
+    </div>   
+    <nav class="desktop-nav1 desktop">
+      <div class="desktop-icons">
+        <ul>
+            <li><img src="images/facebook-24.png" alt=""></li>
+            <li><img src="images/Icon-Twitter.png" alt=""></li>
+            <li>English</li>
+            <li>My Page</li>
+            <li>Logout</li>
+        </ul>
+      </div>
     </nav>
+    <nav class="desktop-nav2 desktop">
+        <div class="nav-logo">
+            <img src="images/nav-logo.png" alt="">
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#desktopMain">Main Program</a></li>
+                <li><a href="#desktopActors">Featured Actors</a></li>
+            </ul>
+        </div>
+    </nav>    
     <div class="mobile-intro">
         <h3 class="title1">
             <p>"Hello! Marvel fans"</p>
@@ -36,9 +72,9 @@
            @Melbourne,  London, New York, Los Angeles and more.
         </p>
     </div>
-    <div class="main-container1">
+    <div id="mobileMain" class="main-container1 mobile">
         <p class="title3">
-            Events
+            Main Program
         </p>
         <div class="image-list-events">
             <ul>
@@ -50,14 +86,73 @@
             </ul>
         </div>
     </div> 
-    <div class="main-container2">
+    <div id="desktopMain">
+        <h3 class="titleEvents">Main Program</h3>
+    </div>
+    <div class="desktopMainProgram desktop">        
+        <div class="destopEvents">
+            <ul class="list-events-icons">
+                <li>
+                    <div class="event-box">
+                        <div class="eventIcon">
+                            <img src="images/icons8-video-64.png" alt="">
+                        </div>
+                        <div class="eventSubTitle">
+                            <p class="desktop-event-title">Movie trailer</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="event-box">
+                        <div class="eventIcon">
+                            <img src="images/icons8-two-tickets-64.png" alt="">
+                        </div>
+                        <div class="eventSubTitle">
+                            <p class="desktop-event-title">Buy Tickets</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="event-box">
+                        <div class="eventIcon">
+                            <img src="images/icons8-red-carpet-64.png" alt="">
+                        </div>
+                        <div class="eventSubTitle">
+                            <p class="desktop-event-title">Red Carpet</p>
+                        </div>
+                    </div>
+                </li>             
+                <li>
+                    <div class="event-box">
+                        <div class="eventIcon">
+                            <img src="images/icons8-film-roll-64.png" alt="">
+                        </div>
+                        <div class="eventSubTitle">
+                            <p class="desktop-event-title">Film Show</p>
+                        </div>
+                    </div>
+                </li>                                                                               
+                <li>
+                    <div class="event-box">
+                        <div class="eventIcon">
+                            <img src="images/icons8-gift-64.png" alt="">
+                        </div>
+                        <div class="eventSubTitle">
+                            <p class="desktop-event-title">Souvenir Shopping</p>
+                        </div>
+                    </div>
+                </li>                   
+            </ul>
+        </div>                
+    </div>
+    <div id="mobileActors" class="main-container2 mobile">
         <p class="title4">
             Featured Actors
         </p>
         <div class="actors-list">
             <div class="actor-picture">
                 <img src="images/actor1.png" alt="">
-                <p class="actor-name">Scarllet Johansson</p>
+                <p class="actor-name">Scarlett Johansson</p>
                 <p class="actor-character">Natasha Romanoff, Black Widow</p>
             </div>
             <div class="actor-picture">
@@ -72,5 +167,55 @@
             </div>            
         </div>
     </div>
+    <div id="desktopActors">
+        <div class="actors-list-title desktop">
+            <h3>Featured Actors</h3>
+        </div>
+        <div class="actors-grid desktop">
+            <div class="actor1-picture">
+                <img src="images/actor1.png" alt="">
+            </div>
+            <div class="actor1-details">
+                <p class="desktopActorName">Scarlett Johansson</p>
+                <p class="desktopActorCharacter">Natasha Romanoff, <br>Black Widow</p>
+            </div>
+            <div class="actor2-picture">
+                <img src="images/actor2.png" alt="">
+            </div>
+            <div class="actor2-details">
+                <p class="desktopActorName">Florence Pugh</p>
+                <p class="desktopActorCharacter">Yelena</p>
+            </div>        
+            <div class="actor1-picture">
+                <img src="images/actor3.png" alt="">
+            </div>
+            <div class="actor1-details">
+                <p class="desktopActorName">David Harbour</p>
+                <p class="desktopActorCharacter">Alexei, <br>Red Guardian</p>
+            </div>
+            <div class="actor2-picture">
+                <img src="images/actor4.png" alt="">
+            </div>
+            <div class="actor2-details">
+                <p class="desktopActorName">Rachel Weisz</p>
+                <p class="desktopActorCharacter">Melina</p>
+            </div>                
+            <div class="actor1-picture">
+                <img src="images/actor5.png" alt="">
+            </div>
+            <div class="actor1-details">
+                <p class="desktopActorName">Ray Winstone</p>
+                <p class="desktopActorCharacter">Dreykov</p>
+            </div>
+            <div class="actor2-picture">
+                <img src="images/actor6.png" alt="">
+            </div>
+            <div class="actor2-details">
+                <p class="desktopActorName">O.T. Fagbenle </p>
+                <p class="desktopActorCharacter">Mason</p>
+            </div>        
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

@@ -9,64 +9,149 @@
     <title> World Premiere Fan Event</title>
 </head>
 <body>
-    <nav class="mobile-icons">
-        <img class="nav-item1" src="images/menu-4-24.png" alt="menu icon">
-        <img class="nav-item2" src="images/close-window-24.png" alt="close button">
-    </nav> 
-    <div class="mobile-intro center-text">
-        <h3 class="title1">
-            <p>"Hello! Marvel fans"</p>
-        </h3>
+    <div class="menu-container mobile">   
+        <nav class="mobile-icons">
+            <img id="menuIcon" class="nav-item1" src="images/menu-4-24.png" alt="menu icon">
+            <img id="closeIcon" class="nav-item2" src="images/close-window-24.png" alt="close button">
+            <ul class="nav-list">
+                <li class="nav-item">                        
+                    <a id="menu-item1" href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">                        
+                    <a id="menu-item2" href="#mobileMovies" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">                        
+                    <a id="menu-item3" href="#mobilePartners" class="nav-link">Partners</a>
+                </li>                                        
+            </ul>
+        </nav>
+    </div>   
+    <nav class="desktop-nav1 desktop">
+        <div class="desktop-icons">
+          <ul>
+              <li><img src="images/facebook-24.png" alt=""></li>
+              <li><img src="images/Icon-Twitter.png" alt=""></li>
+              <li>English</li>
+              <li>My Page</li>
+              <li>Logout</li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="desktop-nav2 desktop">
+        <div class="nav-logo">
+            <img src="images/nav-logo.png" alt="">
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="#desktopMovies">Events</a></li>
+                <li><a href="#desktopPartners">Partners</a></li>
+            </ul>
+        </div>
+    </nav>      
+    <div class="mobile-intro center-text mobile">
         <h3 class="title2">
             <p>BLACK WIDOW MOVIE PREMIER 2021</p>
         </h3>
     </div>   
-    <div class="content1 center-text bg-color-white">
+    <div class="desktop-intro center-text desktop">
+        <h3 class="about-title2">
+            <p>BLACK WIDOW MOVIE PREMIER 2021</p>
+        </h3>
+    </div>       
+    <div class="content1 center-text bg-color-white mobile">
         <p>
             In Marvel Studios’ action-packed spy thriller “Black Widow,” Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.
         </p>
     </div>     
-    <div class="content3 center-text">
+    <div class="about-content1 center-text bg-color-white desktop">
+        <p>
+            In Marvel Studios’ action-packed spy thriller “Black Widow,” Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.
+        </p>
+    </div>     
+    <div class="content3 center-text mobile">
         <p>
            Please contact us per Email for any further questions </br>about this World movie premier! </br>blackwidow2021@marvelstudios.com 
         </p>
-    </div>   
-    <div class="content4 center-text">
+    </div>  
+    <div class="about-content3 center-text desktop">
+        <p>
+           Please contact us per Email for any further questions </br>about this World movie premier! </br>blackwidow2021@marvelstudios.com 
+        </p>
+    </div>  
+    <div class="content4 center-text mobile">
         <h3 class="title5">
             <p>Marvel Studios Black Widow Logo</p>
         </h3>        
     </div>    
-    <div class="content5">
+    <div class="content5 mobile">
         <p class="title6">
             The logo of Marvel Studios Black Widow was decided through the logo competition from June 8th to July 7th. 
          </p>
          <img class="content5-img" src="images/cinema-logo2.png" alt="">
  
     </div>
-    <div class="separator">
+    <div class="about-content4 center-text desktop">
+        <h3 class="about-title5">
+            <p>Marvel Studios Black Widow Logo</p>
+        </h3>        
+        <p class="about-title6">
+            The logo of Marvel Studios Black Widow was decided through the logo competition from June 8th to July 7th. 
+         </p>        
+    </div>    
+    <div class="about-content5 desktop">
+         <img src="images/cinema-logo2.png" alt=""> 
+    </div>    
+    <div class="separator mobile">
         <hr>
     </div>
-    <div class="content4 center-text">
-        <h3 class="title5">
-            <p>See main characters for this World movie premier.</p>
-        </h3>        
+    <div class="about-separator desktop">
+        <hr>
     </div>
-    <div class="characters-list">
-        <ul>
-            <li><img src="images/character1.png" alt=""></li>
-            <li><img src="images/character2.png" alt=""></li>
-            <li><img src="images/character3.png" alt=""></li>
-        </ul>        
-    </div>
-    <div class="parters-list">
+    <div id="mobileMovies" class="contentCharacters center-text mobile">
+        <div class="title5">
+            <h3>See past World Movie Premiers.</h3>
+        </div> 
+        <div class="characters-list">
+            <ul>
+                <li><img src="images/movie1.png" alt=""></li>
+                <li><img src="images/movie2.png" alt=""></li>
+                <li><img src="images/movie3.png" alt=""></li>
+            </ul>
+        </div>
+    </div>    
+    <div id="desktopMovies" class="desktop-movies desktop">
+        <div class="title5">
+            <h3>See past World Movie Premiers.</h3>
+        </div>
+        <div class="movies-list">
+            <ul>
+                <li><img src="images/movie1.png" alt=""></li>
+                <li><img src="images/movie2.png" alt=""></li>
+                <li><img src="images/movie3.png" alt=""></li>
+            </ul>
+        </div>        
+    </div>    
+    <div id="mobilePartners" class="parters-list mobile">
         <p class="title7">
-            Parterns
+            Partners
         </p>
         <ul>
-            <li><img src="images/partner1.png" alt=""></li>
             <li><img src="images/partner2.png" alt=""></li>
             <li><img src="images/partner3.png" alt=""></li>
         </ul> 
-    </div>         
+    </div>
+    <div id="desktopPartners" class="desktop-partners desktop">
+        <div class="desktop-title7">
+            <h3>Partners</h3>
+        </div>
+        <div class="desktop-partners-list">
+            <ul>
+                <li><img src="images/partner2.png" alt=""></li>
+                <li><img src="images/partner3.png" alt=""></li>
+            </ul>
+        </div>        
+    </div>          
+    <script src="main.js"></script>       
 </body>
 </html>
