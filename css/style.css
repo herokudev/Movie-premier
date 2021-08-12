@@ -292,16 +292,44 @@ body {
   justify-content: space-around;
 }
 
-.parters-list > ul {
-  background-color: black;
+.parters-container {
+  background-color: #414246;
   position: relative;
   top: 185px;
-  left: 55px;
-  width: 525px;
+  left: 15px;
+  width: 650px;
+  height: 450px;
   padding: 65px 35px 35px 35px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+}
+
+.partnerImg1 {
+  position: relative;
+  top: 25px;
+  left: 15px;
+}
+
+.partnerImg2 {
+  position: relative;
+  top: 25px;
+  left: 35px;
+}
+
+.partnerImg3 {
+  position: relative;
+  top: 25px;
+  left: 65px;
+}
+
+.partnerImg4 {
+  position: relative;
+  top: 90px;
+  left: 55px;
+}
+
+.partnerImg5 {
+  position: relative;
+  top: 90px;
+  left: 90px;
 }
 
 .title7 {
@@ -311,9 +339,47 @@ body {
   font-size: 38px;
   line-height: 32px;
   color: #fff;
-  top: 235px;
+  top: 5px;
   left: 225px;
-  z-index: 1;
+}
+
+.mobileFooter1 > ul {
+  background-color: white;
+  position: relative;
+  top: 185px;
+  left: 15px;
+  width: 650px;
+  height: 150px;
+  padding: 45px 35px 35px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mobileFooter2 > ul {
+  background-color: white;
+  position: relative;
+  top: 395px;
+  left: 15px;
+  width: 650px;
+  height: 150px;
+  padding: 45px 35px 35px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.desktopFooter > ul {
+  background-color: white;
+  position: relative;
+  top: 330px;
+  left: 15px;
+  width: 100%;
+  height: 150px;
+  padding: 45px 35px 35px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
 }
 
 .desktop {
@@ -632,17 +698,17 @@ body {
     line-height: 32px;
     color: #fff;
     top: 50px;
-    left: 25px;
+    left: 5px;
     z-index: 1;
   }
 
   .desktop-partners {
-    background-color: black;
+    background-color: #414246;
     position: relative;
     top: 325px;
     left: 25px;
     width: 1200px;
-    height: 500px;
+    height: 350px;
     text-align: center;
     margin: 25px 0 0 45px;
   }
@@ -653,5 +719,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #414246;
   }
 }
