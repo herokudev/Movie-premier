@@ -3,15 +3,16 @@
 
 * {
   box-sizing: border-box;
-  position: relative;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 body {
-  background-image: url("images/main_big.png");
+  background-image: url("images/main-big2.png");
   background-color: lightgrey;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .menu-container {
@@ -134,11 +135,10 @@ body {
 }
 
 .main-container1 {
-  width: 500px;
+  width: 100%;
   position: relative;
   background-color: black;
   top: 200px;
-  left: 35px;
   height: 585px;
 }
 
@@ -150,27 +150,36 @@ body {
   color: #fff;
   position: relative;
   top: 30px;
-  left: 125px;
+  text-align: center;
 }
 
-.image-list-events > ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.program-event-list {
   position: relative;
   top: 65px;
-  left: 110px;
 }
 
-.event-title {
+.event-item {
+  border: 3px white solid;
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.event-icon {
+  margin-left: 20%;
+}
+
+.event-text {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   color: #ec5242;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  position: relative;
-  top: -55px;
-  left: 85px;
+  margin-left: 15%;
 }
 
 .main-container2 {
@@ -202,7 +211,7 @@ body {
 .actor-name {
   position: relative;
   top: -125px;
-  left: 155px;
+  left: 180px;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -213,7 +222,7 @@ body {
 .actor-character {
   position: relative;
   top: -125px;
-  left: 155px;
+  left: 180px;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -296,8 +305,7 @@ body {
   background-color: #414246;
   position: relative;
   top: 185px;
-  left: 15px;
-  width: 650px;
+  width: 100%;
   height: 450px;
   padding: 65px 35px 35px 35px;
 }
@@ -347,8 +355,7 @@ body {
   background-color: white;
   position: relative;
   top: 185px;
-  left: 15px;
-  width: 650px;
+  width: 100%;
   height: 150px;
   padding: 45px 35px 35px 25px;
   display: flex;
@@ -360,8 +367,7 @@ body {
   background-color: white;
   position: relative;
   top: 395px;
-  left: 15px;
-  width: 650px;
+  width: 100%;
   height: 150px;
   padding: 45px 35px 35px 25px;
   display: flex;
@@ -373,7 +379,6 @@ body {
   background-color: white;
   position: relative;
   top: 330px;
-  left: 15px;
   width: 100%;
   height: 150px;
   padding: 45px 35px 35px 25px;
@@ -705,12 +710,11 @@ body {
   .desktop-partners {
     background-color: #414246;
     position: relative;
-    top: 325px;
-    left: 25px;
-    width: 1200px;
+    top: 335px;
+    width: 100%;
     height: 350px;
     text-align: center;
-    margin: 25px 0 0 45px;
+    margin-top: 25px;;
   }
 
   .desktop-partners-list > ul {
