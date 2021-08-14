@@ -211,22 +211,20 @@
         <p class="title4">
             Featured Actors
         </p>
-        <div class="actors-list">
-            <div class="actor-picture">
-                <img src="images/actor1.png" alt="Actor Picture">
-                <p class="actor-name">Scarlett Johansson</p>
-                <p class="actor-character">Natasha Romanoff <br>Black Widow</p>
-            </div>
-            <div class="actor-picture">
-                <img src="images/actor2.png" alt="Actor Picture">
-                <p class="actor-name">Florence Pugh</p>
-                <p class="actor-character">Yelena</p>
-            </div>
-            <div class="actor-picture">
-                <img src="images/actor3.png" alt="Actor Picture">
-                <p class="actor-name">David Harbour</p>
-                <p class="actor-character">Alexei <br>Red Guardian</p>
-            </div>            
+        <div id="cardList" class="actors-list">
+            <template id="myCard" class="actor__template">
+                <div class="actor__card">
+                    <div class="actor-picture">
+                        <img  id="actorPicture" src="" alt="actor image" />
+                    </div>
+                    <div class="actor__content">
+                        <p id="actorPeopleName" class="actor_peopleName"></p>
+                        <p id="actorCharacterName" class="actor_characterName"></p>
+                        <hr class="actor__line2" />
+                        <p id="actorDescription" class="actor__desc"></p>
+                    </div>
+                </div>
+            </template>         
         </div>
     </div>
     <div class="mobileFooter2 mobile">
