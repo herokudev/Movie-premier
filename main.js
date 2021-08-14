@@ -45,8 +45,8 @@ const myData = [{
 },
 ];
 
-let temp1 = myCard.content;
-let card1 = document.importNode(temp1,true);
+const temp1 = myCard.content;
+const card1 = document.importNode(temp1, true);
 const actorImg1 = card1.querySelector('#actorPicture');
 const actorName1 = card1.querySelector('#actorPeopleName');
 const actorTitle1 = card1.querySelector('#actorCharacterName');
@@ -57,9 +57,8 @@ actorTitle1.textContent = myData[0].actorTitle;
 actorDataDesc1.textContent = myData[0].actorDataDesc;
 cardList.appendChild(card1);
 
-
-let temp2 = myCard.content;
-let card2 = document.importNode(temp2,true);
+const temp2 = myCard.content;
+const card2 = document.importNode(temp2, true);
 const actorImg2 = card2.querySelector('#actorPicture');
 const actorName2 = card2.querySelector('#actorPeopleName');
 const actorTitle2 = card2.querySelector('#actorCharacterName');
@@ -70,8 +69,8 @@ actorTitle2.textContent = myData[1].actorTitle;
 actorDataDesc2.textContent = myData[1].actorDataDesc;
 cardList.appendChild(card2);
 
-let temp3 = myCard.content;
-let card3 = document.importNode(temp3,true);
+const temp3 = myCard.content;
+const card3 = document.importNode(temp3, true);
 const actorImg3 = card3.querySelector('#actorPicture');
 const actorName3 = card3.querySelector('#actorPeopleName');
 const actorTitle3 = card3.querySelector('#actorCharacterName');
