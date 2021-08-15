@@ -20,7 +20,7 @@ Herbert Orellana
 - GitHub: [@herokudev](https://github.com/herokudev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/armando-orellana-a0b50b34)
 
-## Design 
+## Acknowledgements
 - [Cindy Shin](https://www.behance.net/adagio07) 
 - [Design Guideline](https://www.behance.net/adagio07) 
 

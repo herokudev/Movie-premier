@@ -9,52 +9,49 @@
     <title> World Premiere Fan Event</title>
 </head>
 <body>
+    <header class="header desktop">
+		<nav class="bar">
+			<ul class="bar__cont">
+				<li><a class="bar__item" href="#"><img src="images/facebook-24.png" alt="Facebook Icon"></a></li>
+				<li><a class="bar__item" href="#"><img src="images/Icon-Twitter.png" alt="Twitter Icon"></a></li>
+				<li><a class="bar__item" href="#">English</a></li>
+				<li><a class="bar__item" href="#">My Page</a></li>
+				<li><a class="bar__item" href="#">Logout</a></li>
+			</ul>
+		</nav>
+		<nav class="header__nav">
+			<a href="#home" class="header__home"> <img src="images/nav-logo.png" alt="Logo" class="header__logo"></a>
+			<ul class="header__nav--cont">
+				<li><a class="header__nav--item" href="about.html">About</a></li>
+				<li><a class="header__nav--item" href="#desktopMain">Main</a></li>
+				<li><a class="header__nav--item" href="#desktopActors">Actors</a></li>
+				<li class="header__nav--item" id="button"><button type="button" class="header__camp">Campaign</button></li>
+			</ul>			
+		</nav>                
+    </header>
     <div class="menu-container mobile">   
         <nav class="mobile-icons">
             <img id="menuIcon" class="nav-item1" src="images/menu-4-24.png" alt="menu icon">
             <img id="closeIcon" class="nav-item2" src="images/close-window-24.png" alt="close button">
             <ul class="nav-list">
                 <li class="nav-item">                        
-                    <a id="menu-item1" href="about.html" class="nav-link">About</a>
+                    <a href="about.html" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">                        
-                    <a id="menu-item2" href="#mobileMain" class="nav-link">Main Program</a>
+                    <a href="#mobileMain" class="nav-link">Main Program</a>
                 </li>
                 <li class="nav-item">                        
-                    <a id="menu-item3" href="#mobileActors" class="nav-link">Featured Actors</a>
+                    <a href="#mobileActors" class="nav-link">Featured Actors</a>
                 </li>                                        
             </ul>
         </nav>
-    </div>   
-    <nav class="desktop-nav1 desktop">
-      <div class="desktop-icons">
-        <ul>
-            <li><img src="images/facebook-24.png" alt=""></li>
-            <li><img src="images/Icon-Twitter.png" alt=""></li>
-            <li>English</li>
-            <li>My Page</li>
-            <li>Logout</li>
-        </ul>
-      </div>
-    </nav>
-    <nav class="desktop-nav2 desktop">
-        <div class="nav-logo">
-            <img src="images/nav-logo.png" alt="">
-        </div>
-        <div class="nav-links">
-            <ul>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="#desktopMain" class="nav-link">Main Program</a></li>
-                <li><a href="#desktopActors" class="nav-link">Featured Actors</a></li>
-            </ul>
-        </div>
-    </nav>    
+    </div>
     <div class="mobile-intro">
         <h3 class="title1">
-            <p>"Hello! Marvel fans"</p>
+            "Hello! Marvel fans"
         </h3>
         <h3 class="title2">
-            <p>BLACK WIDOW MOVIE PREMIER 2021</p>
+            BLACK WIDOW MOVIE PREMIER 2021
         </h3>
     </div>
     <div class="content1">
@@ -76,70 +73,135 @@
         <p class="title3">
             Main Program
         </p>
-        <div class="image-list-events">
-            <ul>
-                <li><img src="images/icons8-video-64.png" alt=""><p class="event-title">Wacth movie trailer</p></li>
-                <li><img src="images/icons8-two-tickets-64.png" alt=""><p class="event-title">Buy Tickets</p></li>
-                <li><img src="images/icons8-red-carpet-64.png" alt=""><p class="event-title">Red Carpet</p></li>                               
-                <li><img src="images/icons8-film-roll-64.png" alt=""><p class="event-title">Film Show</p></li>                               
-                <li><img src="images/icons8-gift-64.png" alt=""><p class="event-title">Souvenir Shopping</p></li>                               
+        <div>
+            <ul class="program-event-list">
+                <li class="event-item">
+                    <div class="event-icon">
+                        <img src="images/icons8-video-64.png" alt="Event Icon">
+                    </div>
+                    <div class="event-title">
+                        Trailer
+                    </div>                    
+                    <div class="event-text">                        
+                        Come and see the video trailer of our movie.
+                    </div>
+                </li>
+                <li class="event-item">
+                    <div class="event-icon">
+                        <img src="images/icons8-two-tickets-64.png" alt="Event Icon">
+                    </div>
+                    <div class="event-title">
+                        Tickets
+                    </div>                    
+                    <div class="event-text">                        
+                        We invite you to by Tickets.
+                    </div>
+                </li>
+                <li class="event-item">
+                    <div class="event-icon">
+                        <img src="images/icons8-red-carpet-64.png" alt="Event Icon">
+                    </div>
+                    <div class="event-title">
+                        Carpet
+                    </div>                    
+                    <div class="event-text">
+                        We will have red carpet entrance.
+                    </div>
+                </li>  
+                <li class="event-item">
+                    <div class="event-icon">
+                        <img src="images/icons8-film-roll-64.png" alt="Event Icon">
+                    </div>
+                    <div class="event-title">
+                        Film
+                    </div>                    
+                    <div class="event-text">                        
+                        Big screen full time movie.
+                    </div>
+                </li>  
+                <li class="event-item">
+                    <div class="event-icon">
+                        <img src="images/icons8-gift-64.png" alt="Event Icon">
+                    </div>
+                    <div class="event-title">
+                        Souvenirs.
+                    </div>                    
+                    <div class="event-text">                        
+                        Get all the souvenirs you like.
+                    </div>
+                </li>                                                                
             </ul>
         </div>
-    </div> 
-    <div id="desktopMain">
-        <h3 class="titleEvents">Main Program</h3>
     </div>
-    <div class="desktopMainProgram desktop">        
+    <div id="desktopMain" class="desktopMainProgram desktop">        
+        <div class="titleEvents desktop">
+            <h3>Main Program</h3>
+        </div>
         <div class="destopEvents">
             <ul class="list-events-icons">
                 <li>
                     <div class="event-box">
                         <div class="eventIcon">
-                            <img src="images/icons8-video-64.png" alt="">
+                            <img src="images/icons8-video-64.png" alt="Event Icon">
                         </div>
                         <div class="eventSubTitle">
                             <p class="desktop-event-title">Movie trailer</p>
                         </div>
+                        <div class="eventDescrip">
+                            <p class="desktop-event-descrip">Come and see the video trailer of our movie.</p>
+                        </div>
                     </div>
                 </li>
                 <li>
                     <div class="event-box">
                         <div class="eventIcon">
-                            <img src="images/icons8-two-tickets-64.png" alt="">
+                            <img src="images/icons8-two-tickets-64.png" alt="Event Icon">
                         </div>
                         <div class="eventSubTitle">
                             <p class="desktop-event-title">Buy Tickets</p>
                         </div>
+                        <div class="eventDescrip">
+                            <p class="desktop-event-descrip">We invite you to by Tickets.</p>
+                        </div>                        
                     </div>
                 </li>
                 <li>
                     <div class="event-box">
                         <div class="eventIcon">
-                            <img src="images/icons8-red-carpet-64.png" alt="">
+                            <img src="images/icons8-red-carpet-64.png" alt="Event Icon">
                         </div>
                         <div class="eventSubTitle">
                             <p class="desktop-event-title">Red Carpet</p>
                         </div>
+                        <div class="eventDescrip">
+                            <p class="desktop-event-descrip">We will have red carpet entrance.</p>
+                        </div>                        
                     </div>
                 </li>             
                 <li>
                     <div class="event-box">
                         <div class="eventIcon">
-                            <img src="images/icons8-film-roll-64.png" alt="">
+                            <img src="images/icons8-film-roll-64.png" alt="Event Icon">
                         </div>
                         <div class="eventSubTitle">
                             <p class="desktop-event-title">Film Show</p>
                         </div>
+                        <div class="eventDescrip">
+                            <p class="desktop-event-descrip">Big screen full time movie.</p>
+                        </div>                        
                     </div>
                 </li>                                                                               
                 <li>
                     <div class="event-box">
                         <div class="eventIcon">
-                            <img src="images/icons8-gift-64.png" alt="">
+                            <img src="images/icons8-gift-64.png" alt="Event Icon">
                         </div>
                         <div class="eventSubTitle">
                             <p class="desktop-event-title">Souvenir Shopping</p>
                         </div>
+                        <div class="eventDescrip">
+                            <p class="desktop-event-descrip">Get all the souvenirs you like.</p>
+                        </div>                        
                     </div>
                 </li>                   
             </ul>
@@ -149,66 +211,74 @@
         <p class="title4">
             Featured Actors
         </p>
-        <div class="actors-list">
-            <div class="actor-picture">
-                <img src="images/actor1.png" alt="">
-                <p class="actor-name">Scarlett Johansson</p>
-                <p class="actor-character">Natasha Romanoff, Black Widow</p>
-            </div>
-            <div class="actor-picture">
-                <img src="images/actor2.png" alt="">
-                <p class="actor-name">Florence Pugh</p>
-                <p class="actor-character">Yelena</p>
-            </div>
-            <div class="actor-picture">
-                <img src="images/actor3.png" alt="">
-                <p class="actor-name">David Harbour</p>
-                <p class="actor-character">Alexei, Red Guardian</p>
-            </div>            
+        <div id="cardList" class="actors-list">
+            <template id="myCard" class="actor__template">
+                <div class="actor__card">
+                    <div class="actor-picture">
+                        <img  id="actorPicture" src="" alt="actor image" />
+                    </div>
+                    <div class="actor__content">
+                        <p id="actorPeopleName" class="actor_peopleName"></p>
+                        <p id="actorCharacterName" class="actor_characterName"></p>
+                        <hr class="actor__line2" />
+                        <p id="actorDescription" class="actor__desc"></p>
+                    </div>
+                </div>
+            </template>         
         </div>
     </div>
+    <div class="mobileFooter2 mobile">
+        <ul>
+            <li>
+                <img src="images/nav-logo.png" alt="Logo">
+            </li>
+            <li>
+                2021 World Movie Premiere Event <br>Some Rigths Reserved.
+            </li>
+        </ul>
+    </div>    
     <div id="desktopActors">
         <div class="actors-list-title desktop">
             <h3>Featured Actors</h3>
         </div>
         <div class="actors-grid desktop">
             <div class="actor1-picture">
-                <img src="images/actor1.png" alt="">
+                <img src="images/actor1.png" alt="Actor Picture">
             </div>
             <div class="actor1-details">
                 <p class="desktopActorName">Scarlett Johansson</p>
                 <p class="desktopActorCharacter">Natasha Romanoff, <br>Black Widow</p>
             </div>
             <div class="actor2-picture">
-                <img src="images/actor2.png" alt="">
+                <img src="images/actor2.png" alt="Actor Picture">
             </div>
             <div class="actor2-details">
                 <p class="desktopActorName">Florence Pugh</p>
                 <p class="desktopActorCharacter">Yelena</p>
             </div>        
             <div class="actor1-picture">
-                <img src="images/actor3.png" alt="">
+                <img src="images/actor3.png" alt="Actor Picture">
             </div>
             <div class="actor1-details">
                 <p class="desktopActorName">David Harbour</p>
                 <p class="desktopActorCharacter">Alexei, <br>Red Guardian</p>
             </div>
             <div class="actor2-picture">
-                <img src="images/actor4.png" alt="">
+                <img src="images/actor4.png" alt="Actor Picture">
             </div>
             <div class="actor2-details">
                 <p class="desktopActorName">Rachel Weisz</p>
                 <p class="desktopActorCharacter">Melina</p>
             </div>                
             <div class="actor1-picture">
-                <img src="images/actor5.png" alt="">
+                <img src="images/actor5.png" alt="Actor Picture">
             </div>
             <div class="actor1-details">
                 <p class="desktopActorName">Ray Winstone</p>
                 <p class="desktopActorCharacter">Dreykov</p>
             </div>
             <div class="actor2-picture">
-                <img src="images/actor6.png" alt="">
+                <img src="images/actor6.png" alt="Actor Picture">
             </div>
             <div class="actor2-details">
                 <p class="desktopActorName">O.T. Fagbenle </p>
@@ -216,6 +286,30 @@
             </div>        
         </div>
     </div>
+    <div id="desktopPartners" class="desktop-partners desktop">
+        <div class="desktop-title7">
+            <h3>Partners</h3>
+        </div>
+        <div class="desktop-partners-list">
+            <ul>
+                <li><img src="images/partner1.png" alt="Partner Icon"></li>
+                <li><img src="images/partner2.png" alt="Partner Icon"></li>
+                <li><img src="images/partner3.png" alt="Partner Icon"></li>
+                <li><img src="images/partner4.png" alt="Partner Icon"></li>
+                <li><img src="images/partner5.png" alt="Partner Icon"></li>
+            </ul>
+        </div>        
+    </div>            
+    <div class="desktopFooter desktop">
+        <ul>
+            <li>
+                <img src="images/nav-logo.png" alt="Logo">
+            </li>
+            <li>
+                2021 World Movie Premiere Event <br>Some Rigths Reserved.
+            </li>
+        </ul>
+    </div>    
     <script src="main.js"></script>
 </body>
 </html>
