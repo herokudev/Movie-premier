@@ -18,7 +18,7 @@ This project is to apply the tools/concepts we have learned in module (HTML/CSS/
 Herbert Orellana
 
 - GitHub: [@herokudev](https://github.com/herokudev)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/armando-orellana-a0b50b34)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/herbert-armando-orellana-a0b50b34/)
 
 ## Acknowledgements
 - [Cindy Shin](https://www.behance.net/adagio07) 
